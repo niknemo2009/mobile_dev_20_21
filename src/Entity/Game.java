@@ -28,6 +28,9 @@ public class Game {
  Player whoIs(){
         return null;
 }
+void viewCardOnTable(){
+
+}
 }
 
 enum  StateGame{

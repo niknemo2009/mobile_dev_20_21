@@ -16,6 +16,7 @@ public class StartGame {
         while(game.stateGame.equals(StateGame.ITERATE)){
             game.whoIs().nextStep(3,"Небо");
         }
+        game.viewCardOnTable();
 
     }
 }
